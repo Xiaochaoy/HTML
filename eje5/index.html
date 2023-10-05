@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regexp phone validation</title>
+    <style>
+    input:valid {
+        color: navy
+        }
+    input:invalid {
+        color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Validación de teléfono mediante a expresiones regulares:</h2>
+    </header>
+    <main>
+        <form>
+            <input type="tel" name="mobile" class="form-control" pattern="(\d{8})" required placeholder="Enter 9 digits of you phone"/>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </main>
+
+</body>
+</html>
